@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import Header from './components/Header'
 import './App.css';
 
 function App() {
   return (
     <div className='container'>
-      Hello
+      <Header/>
     </div>
   );
 }
