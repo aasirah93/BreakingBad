@@ -1,9 +1,9 @@
 import React from 'react'
 
-function CharacterItem() {
+function CharacterItem({ item }) {
     return (
         <div>
-            
+            {item.name}
         </div>
     )
 }
