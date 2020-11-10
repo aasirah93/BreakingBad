@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header'
 import CharacterGrid from './components/CharacterGrid'
+import Search from './components/Search'
 import './App.css';
 
 function App() {
