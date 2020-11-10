@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header'
 import CharacterGrid from './components/CharacterGrid'
 import Search from './components/Search'
+import Pagination from './components/Pagination'
 import './App.css';
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
   return (
     <div className='container'>
       <Header/>
+      <Search/>
       <CharacterGrid isLoading={isLoading} items={items}/>
+      <Pagination/>
     </div>
   );
 }
