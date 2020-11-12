@@ -3,9 +3,10 @@ import React from 'react'
 export default function Pagination() {
     return (
         <div>
-            <footer>
-                <button text = 'previous' />
-            </footer>
+            <header>
+                <button> Previous </button>
+                <button> Next </button>
+            </header>
         </div>
     )
 }

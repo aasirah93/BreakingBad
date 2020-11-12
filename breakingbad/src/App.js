@@ -35,8 +35,8 @@ function App() {
     <div className='container'>
       <Header/>
       <Search/>
-      <CharacterGrid isLoading={isLoading} items={items}/>
       <Pagination/>
+      <CharacterGrid isLoading={isLoading} items={items}/>
     </div>
   );
 }
